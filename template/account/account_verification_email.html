@@ -1,0 +1,17 @@
+{% autoescape off %}
+  Please click on the link to activate your account:
+  http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+  it you think its not you , please ignore this email.
+{% endautoescape %}
+
+
+
+<!-- <body style="font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding: 20px;">
+
+  <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+      <h1 style="color: #333;">Account Activation</h1>
+      <p style="color: #555; margin-bottom: 20px;">Please click on the link below to activate your account:</p>
+      <a href="http://{{ domain }}{% url 'activate' uidb64=uid token=token %}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: #ffffff; text-decoration: none; border-radius: 5px;">Activate Account</a>
+  </div>
+
+</body> -->
