@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "accounts",
     "store",
     "cart",
+    "orders",
 ]
 
 MIDDLEWARE = [
@@ -151,5 +152,4 @@ EMAIL_HOST_USER = "vaishnav.s.raj18@gmail.com"
 EMAIL_HOST_PASSWORD = "zrjjtntwfjzsxqwh"
 EMAIL_USE_TLS = True
 
-
-# zrjj tntw fjzs xqwh
+SECURE_CROSS_ORIGIN_OPENER_POLICY='same-origin-allow-popups'
